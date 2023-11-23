@@ -1,6 +1,6 @@
 
 <% content_for :title do %>
-  Foodlog &ndash; <%= DateTime.now %>
+  Foodlog &ndash; <%= DateTime.now.to_fs(:nice_date) %>
 <% end %>
 
 
